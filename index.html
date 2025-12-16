@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuzey Atlantik ve Ekosistemi</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        background: url('img/background.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+
+    .intro {
+        max-width: 900px;
+        margin: 1em auto 50px auto;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        padding: 0 20px;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+        padding: 50px 20px;
+    }
+
+    .category {
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        padding: 15px;
+        width: 220px;
+        text-align: center;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    .category img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .category h3 {
+        margin: 0 0 10px 0;
+        font-size: 1.2rem;
+        transition: color 0.3s;
+    }
+
+    .category p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        color: #ddd;
+    }
+
+    .category:hover {
+        transform: scale(1.05);
+        background: rgba(0, 0, 50, 0.7);
+    }
+
+    .category:hover h3 {
+        color: #00ffff;
+    }
+
+    footer {
+        color: white;
+        background: rgba(0,0,0,0.7);
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+<body>
+
+<h1>Kuzey Atlantik ve Ekosistemi</h1>
+
+<div class="intro">
+    Dondurucu rüzgarlar, buzla kaplı okyanus yüzeyleri ve kar fırtınaları…  
+    Bu zorlu koşullarda yaşam mücadelesi veren balinalar, foklar, orkalar, kutup kuşları ve diğer canlıları keşfedin.
+</div>
+
+<div class="categories">
+    <a href="canlilar.html" class="category">
+        <img src="img/orca.png" alt="Canlılar">
+        <h3>Canlılar</h3>
+        <p>Balinalar, foklar, orkalar ve kutup kuşları</p>
+    </a>
+    <a href="buzullar.html"  class="category">
+        <img src="img/artic.jpg" alt="Buzullar & Kıyılar">
+        <h3>Buzullar & Kıyılar</h3>
+        <p>Karlı kıyılar ve buzlu okyanus yüzeyleri</p>
+    </a>
+    <a href="kar.html" class="category">
+        <img src="img/climate.jpg" alt="Kar & İklim">
+        <h3>Kar & İklim</h3>
+        <p>Kış koşulları, kar fırtınaları ve iklim etkileri</p>
+    </a>
+    <a href="ekosistem.html" class="category">
+        <img src="img/arctic-ecosystem.jpg" alt="Ekosistem">
+        <h3>Ekosistem</h3>
+        <p>Arktik ve Kuzey Atlantik yaşam alanları</p>
+    </a>
+</div>
+
+<footer>
+    &copy; 2025 Kuzey Atlantik ve Ekosistemi | Tüm hakları saklıdır
+</footer>
+
+</body>
+</html>

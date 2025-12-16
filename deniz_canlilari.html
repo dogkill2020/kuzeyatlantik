@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuzey Atlantik Deniz Canlıları</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        background: url('img/arctic_ocean.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin: 40px 0 20px 0;
+        font-size: 3rem;
+    }
+
+    .intro {
+        max-width: 900px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        padding: 0 20px;
+    }
+
+    .animals {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 50px 20px;
+    }
+
+    .animal {
+        background: rgba(0,0,0,0.5);
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 700px;
+        text-align: left;
+        color: white;
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .animal img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+        flex-shrink: 0;
+    }
+
+    .animal:hover {
+        transform: scale(1.02);
+        background: rgba(0,0,50,0.7);
+    }
+
+    .animal h2 {
+        margin: 0 0 10px 0;
+    }
+    
+    .animal:hover h2 {
+        color: #00ffff;
+    }
+
+    .animal p {
+        margin: 5px 0;
+        line-height: 1.5;
+        color: #ddd;
+    }
+
+    footer {
+        color: white;
+        background: rgba(0,0,0,0.7);
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+        margin-top: 50px;
+    }
+    a {
+        text-decoration: none; 
+        color: black;        
+        font-family: 'Montserrat', sans-serif;
+        transition: transform 0.2s, text-decoration-color 0.2s; 
+    }
+
+    a:hover {
+        text-decoration: underline; 
+        text-decoration-color: black; 
+        transform: scale(1.05);    
+    }
+
+</style>
+</head>
+<body>
+
+<h1>Kuzey Atlantik Deniz Canlıları</h1>
+
+<div class="intro">
+    Kuzey Atlantik’in soğuk sularında yaşayan bazı su canlılarını keşfedin:
+</div>
+
+<div class="animals">
+    <a href="canlilar.html">&larr; Kuzey Atlantik Canlıları Sayfasına Dön</a>
+    <a href="index.html">&larr; Kuzey Atlantik ve Ekosistemi Anasayfasına Dön</a>
+
+    <div class="animal">
+        <img src="img/orca3.jpg" alt="Orka">
+        <div>
+            <h2>Orka (Orcinus orca)</h2>
+            <p><strong>Beslenme:</strong> Balıklar, foklar ve diğer deniz memelileriyle beslenir.</p>
+            <p><strong>Yaşam Alanı:</strong> Kuzey Atlantik ve kutup bölgeleri dahil soğuk sularda yaşar.</p>
+            <p><strong>Zeka:</strong> Sosyal ve çok zeki canlılardır. Avlanma taktikleri ve sosyal yapıları karmaşıktır.</p>
+            <p><strong>Diğer Bilgiler:</strong> Orkalar grup halinde (pod) yaşar, iletişim için farklı sesler kullanır. Uzun ömürlü ve güçlü avcılardır.</p>
+            <p><strong>İlginç Olay:</strong> Bilim insanlarının kaydettiğine göre, Avustralya’nın güneybatı kıyılarında Bremer Bay yakınlarında ilk kez orkaların yetişkin mavi balinayı birlikte avlayarak öldürdüğü ve yediği belgesel ve gözlem kayıtlarıyla doğrulandı. Bu özel avlanma olayında bir sürü orka, koordineli hareket ederek 18–22 metre uzunluğundaki mavi balinayı yıprattı ve sonunda avladı. Bu tür büyük av olayları daha önce sadece “kovalama” şeklinde rapor edilse de, bu kayıtlar orkaların gerçekten büyük bir balinayı hedef alıp birlikte öldürebildiğini gösteriyor.</p>
+        </div>
+    </div>
+    <div class="animal">
+    <img src="img/greenland_shark.jpg" alt="Greenland Köpekbalığı">
+    <div>
+        <h2>Greenland Köpekbalığı</h2>
+        <p><strong>Bilimsel Adı:</strong> Somniosus microcephalus</p>
+        <p><strong>Yaşam Alanı:</strong> Kuzey Atlantik ve Arktik sularında, derin ve soğuk bölgelerde yaşar.</p>
+        <p><strong>Beslenme:</strong> Balıklar, mürekkep balıkları ve deniz memelileriyle beslenir; bazen leşçidir.</p>
+        <p><strong>Fiziksel Özellikler:</strong> Yavaş hareket eder, büyük boyutlu ve uzun ömürlüdür. Gözlerinde parazitler bulunabilir.</p>
+        <p><strong>Ömür:</strong> Yaklaşık 200–400 yıl yaşayabilir, üremek icin olgunluğa yaklaşık 150 yaşında ulaşırlar; en uzun yaşayan omurgalılardan biridir.</p>
+    </div>
+</div>
+</div>
+
+<footer>
+    &copy; 2025 Kuzey Atlantik ve Ekosistemi | Tüm hakları saklıdır
+</footer>
+
+</body>
+</html>

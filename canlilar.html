@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuzey Atlantik Canlıları</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        min-height: 100vh;
+        background: url('img/arctic_an.jpg') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        margin: 40px 0 20px 0;
+        font-size: 3rem;
+    }
+
+    .intro {
+        max-width: 900px;
+        margin: 0 auto 50px auto;
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        padding: 0 20px;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 50px 20px;
+    }
+
+    .category {
+        background: rgba(0,0,0,0.5);
+        border-radius: 10px;
+        padding: 15px;
+        width: 250px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .category img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .category:hover {
+        transform: scale(1.05);
+        background: rgba(0,0,50,0.7);
+    }
+    .category:hover h3 {
+        color: #00ffff;
+    }
+
+
+    footer {
+        color: white;
+        background: rgba(0,0,0,0.7);
+        padding: 20px;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+     a {
+        text-decoration: none; 
+        color: black;        
+        font-family: 'Montserrat', sans-serif;
+        transition: transform 0.2s, text-decoration-color 0.2s; 
+    }
+
+    a:hover {
+        text-decoration: underline; 
+        text-decoration-color: black; 
+        transform: scale(1.05);    
+    }
+</style>
+</head>
+<body>
+
+<h1>Kuzey Atlantik Canlıları</h1>
+
+<div class="intro">
+    Kuzey Atlantik ve Arktik bölgelerdeki canlıları alt kategorilere göre keşfedin:
+</div>
+
+<div class="categories">
+    <a href="index.html">&larr; Kuzey Atlantik ve Ekosistemi Anasayfa Sayfasına Dön</a>
+
+    <a href="deniz_canlilari.html" class="category">
+        <img src="img/orca2.jpg" alt="Deniz Canlıları">
+        <h3>Deniz Canlıları</h3>
+    </a>
+    
+    <a href="kara_canlilari.html" class="category">
+        <img src="img/polar_bear.jpg" alt="Kara Canlıları">
+        <h3>Kara Canlıları</h3>
+    </a>
+
+    <a href="kuslar.html" class="category">
+        <img src="img/eagle.jpg" alt="Kuşlar">
+        <h3>Artic Kuşları</h3>
+    </a>
+</div>
+
+<footer>
+    &copy; 2025 Kuzey Atlantik ve Ekosistemi | Tüm hakları saklıdır
+</footer>
+
+</body>
+</html>
